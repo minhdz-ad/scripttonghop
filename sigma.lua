@@ -60,3 +60,10 @@ getgenv().Auto_Execute = false
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Xero2409/XeroHub/refs/heads/main/main.lua"))()
   end
   })
+   AddButton(Tab1o, {
+     Name = "ADhub",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/minhdz-ad/adhub/refs/heads/main/ADhub.lua"))()
+
+  end
+  })
